@@ -1,7 +1,7 @@
 // TODO: TO ADD FOOTER
 import Head from "next/head";
 import { ReactNode } from "react";
-// import Footer from "./Footer";
+import Footer from "./Footer";
 import NavBar from "./NavBar";
 
 interface LayoutProps {
@@ -17,7 +17,8 @@ const Layout = ({ children }: LayoutProps) => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <NavBar />
-      {/* <Footer /> */}
+      {children}
+      <Footer />
     </div>
   );
 };
