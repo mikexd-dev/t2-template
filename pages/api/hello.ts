@@ -5,9 +5,14 @@ type Data = {
   name: string
 }
 
+export function getData() {
+  return { name: 'John Doe' }
+}
+
 export default function handler(
   req: NextApiRequest,
   res: NextApiResponse<Data>
 ) {
-  res.status(200).json({ name: 'John Doe' })
+  const data = getData()
+  res.status(200).json(data)
 }
