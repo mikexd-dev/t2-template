@@ -1,12 +1,12 @@
 // TODO: clean up the menu
 // import { WalletIcon } from "@heroicons/react/24/outline";
-import Link from "next/link";
-import { Fragment, SVGProps, useState } from "react";
-import { Popover, Transition } from "@headlessui/react";
-import ColourModeButton from "./ColourModeButton";
+import Link from 'next/link';
+import { Fragment, SVGProps, useState } from 'react';
+import { Popover, Transition } from '@headlessui/react';
+import ColourModeButton from './ColourModeButton';
 
 function ChevronDownIcon(
-  props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>
+  props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>,
 ) {
   return (
     <svg viewBox="0 0 8 6" aria-hidden="true" {...props}>

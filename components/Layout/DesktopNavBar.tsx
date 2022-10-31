@@ -1,4 +1,4 @@
-import ColourModeButton from "./ColourModeButton";
+import ColourModeButton from './ColourModeButton';
 
 const DesktopNavBar = () => {
   return (

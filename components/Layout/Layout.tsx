@@ -1,8 +1,8 @@
 // TODO: TO ADD FOOTER
-import Head from "next/head";
-import { ReactNode } from "react";
-import Footer from "./Footer";
-import NavBar from "./NavBar";
+import Head from 'next/head';
+import { ReactNode } from 'react';
+import Footer from './Footer';
+import NavBar from './NavBar';
 
 interface LayoutProps {
   children?: ReactNode;
